@@ -34,6 +34,10 @@
 .btn--green {
   background-color: $color-primary;
   color: $color-white;
+
+  @include respond(phone) {
+    font-size: 1.8rem;
+  }
 }
 
 .btn--green::after {

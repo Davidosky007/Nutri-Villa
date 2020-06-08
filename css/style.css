@@ -122,7 +122,7 @@ body {
       font-size: 3rem; } }
   @media only screen and (max-width: 37.5em) {
     .heading-secondary {
-      font-size: 2.5rem; } }
+      font-size: 1.8rem; } }
   .heading-secondary:hover {
     transform: skewY(2deg) skewX(15deg) scale(1.1);
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
@@ -213,6 +213,9 @@ body {
 .btn--green {
   background-color: rgba(221, 96, 134, 0.808);
   color: #fff; }
+  @media only screen and (max-width: 37.5em) {
+    .btn--green {
+      font-size: 1.8rem; } }
 
 .btn--green::after {
   background-color: rgba(221, 96, 134, 0.808); }
@@ -483,6 +486,9 @@ body {
   @media only screen and (max-width: 56.25em) {
     .form__input {
       width: 100%; } }
+  @media only screen and (max-width: 37.5em) {
+    .form__input {
+      width: 70%; } }
   .form__input::-webkit-input-placeholder {
     color: #999; }
   .form__input:focus {
@@ -617,7 +623,7 @@ body {
   left: 4rem; }
 
 .logo {
-  height: 3.5rem; }
+  height: 12rem; }
 
 .text-box {
   position: absolute;
@@ -739,8 +745,8 @@ body {
       right: 4rem; } }
   @media only screen and (max-width: 37.5em) {
     .navigation__button {
-      top: 3rem;
-      right: 3rem; } }
+      top: 4rem;
+      right: 9rem; } }
 
 .navigation__background {
   height: 6rem;
@@ -758,8 +764,8 @@ body {
       right: 4.5rem; } }
   @media only screen and (max-width: 37.5em) {
     .navigation__background {
-      top: 3.5rem;
-      right: 3.5rem; } }
+      top: 4.5rem;
+      right: 9.5rem; } }
 
 .navigation__nav {
   height: 100vh;

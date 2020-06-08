@@ -21,6 +21,10 @@
       width: 100%;
     }
 
+    @include respond(phone) {
+      width: 70%;
+    }
+
     &::-webkit-input-placeholder {
       color: $color-grey-dark-2;
     }
