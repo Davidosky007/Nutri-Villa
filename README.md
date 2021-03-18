@@ -15,7 +15,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://goofy-mirzakhani-2b1e72.netlify.app/)
 
 
 ## Getting Started
